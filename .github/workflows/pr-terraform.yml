@@ -15,5 +15,5 @@ jobs:
     with:
       environment: mgmt
       terraform-version: 1.3.6
-      exclude-files: ".git*" "bootstrap*" "README.md"
+      exclude-files: '".git*" "bootstrap*" "README.md"'
     secrets: inherit
