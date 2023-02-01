@@ -11,7 +11,7 @@ jobs:
       pull-requests: write
       id-token: write
       contents: read
-    uses: liamfit/workflow-library/.github/workflows/terraform-plan-and-apply.yml@main
+    uses: liamfit/workflow-library/.github/workflows/terraform-plan-and-apply.yml@14a5dc2616dd14681adca32dc6848bb4581d3f9e
     with:
       environment: mgmt
       terraform-version: 1.3.6
