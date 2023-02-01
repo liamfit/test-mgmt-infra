@@ -13,7 +13,7 @@ jobs:
       contents: read
     uses: liamfit/workflow-library/.github/workflows/terraform-plan-and-apply.yml@becb8879700289839587c2038972a76638a84450
     with:
-      environment: mgmt
-      terraform-version: 1.3.6
-      exclude-files: '".git*" "bootstrap*" "README.md"'
+      environment: 'mgmt'
+      terraform-version: '1.3.6'
+      exclude-files: '".git*" "bootstrap*" "README.md" "mgmt-infra.png"'
     secrets: inherit
